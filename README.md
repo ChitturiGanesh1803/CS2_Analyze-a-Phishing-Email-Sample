@@ -1,5 +1,6 @@
 # Phishing Email Analysis Report
-
+# Use mxtoolbox 
+## https://mxtoolbox.com/Public/Tools/EmailHeaders.aspx
 ## Sample Email
 **From:** PayPal Security <security@paypal-verify.com>  
 **Subject:** Urgent: Verify your account  
