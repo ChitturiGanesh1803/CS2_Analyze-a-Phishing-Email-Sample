@@ -1,0 +1,37 @@
+1. What is phishing?
+
+Phishing is a social‑engineering attack where attackers pose as trusted entities to trick people into giving up sensitive information, clicking malicious links, or opening harmful attachments.
+
+2. How do you identify a phishing email?
+
+Check the sender address, look for urgent or threatening language, hover over links, inspect attachments, review headers, and look for spelling or formatting mistakes.
+
+3. What is email spoofing?
+
+It’s when attackers forge the “From” address to make the email look like it came from a legitimate sender.
+
+4. Why are phishing emails dangerous?
+
+They can steal credentials, deliver malware, cause financial loss, or lead to data breaches.
+
+5. How can you verify the sender’s authenticity?
+
+Check the domain, inspect email headers, verify SPF/DKIM/DMARC results, or contact the sender through an official channel (not by replying to the email).
+
+6. What tools can analyze email headers?
+
+Google Admin Toolbox
+
+MXToolbox Header Analyzer
+
+Microsoft Message Header Analyzer
+
+MessageHeader.org
+
+7. What actions should be taken on suspected phishing emails?
+
+Do not click anything, report it to your security team or IT helpdesk, block the sender, and delete the message.
+
+8. How do attackers use social engineering in phishing?
+
+They exploit emotions like fear, urgency, curiosity, or trust to push victims into acting quickly without verifying details.
