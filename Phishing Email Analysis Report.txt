@@ -1,0 +1,62 @@
+Phishing Email Analysis Report
+
+Sample Email:
+From: PayPal Security <security@paypal-verify.com>
+Subject: Urgent: Verify your account
+Date: Thu, 11 Dec 2025 18:59:00 +0000
+
+1. Suspicious Sender Address
+
+Email: security@paypal-verify.com
+
+Red flags:
+
+Domain paypal-verify.com is not the official PayPal domain (paypal.com).
+
+Slight variation is a common tactic to trick users.
+
+2. Email Header Analysis
+
+Received: Shows originating server mail.example.com [192.0.2.1], which is not a PayPal server.
+
+SPF: Failed (domain of security@paypal-verify.com does not designate 192.0.2.1 as permitted sender).
+
+DKIM: Failed (signature not verified).
+
+DMARC: Failed (header.from=paypal-verify.com).
+
+Interpretation: The email fails multiple authentication checks, confirming it is spoofed.
+
+3. Suspicious Links
+
+URL in email: https://example-phish.com/verify-paypal
+
+Red flags:
+
+Domain does not match PayPal’s official site.
+
+Hovering over the link (without clicking) would reveal the mismatch.
+
+4. Urgent or Threatening Language
+
+Phrases like:
+
+“Click the link below to verify within 24 hours”
+
+“or your account will be limited”
+
+This creates pressure to act immediately, a common phishing tactic.
+
+5. Spelling/Grammar Errors
+
+Minor issues; email text is fairly clean.
+
+However, professional companies rarely phrase urgent threats this bluntly in official emails.
+
+6. Other Phishing Traits
+
+Generic greeting: “Dear Valued Customer” instead of your actual name.
+
+Requests personal action via a link rather than providing official channels.
+
+Email comes from a free or unrelated server (mail.example.com), not PayPal’s infrastructure.

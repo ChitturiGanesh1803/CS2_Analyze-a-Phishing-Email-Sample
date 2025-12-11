@@ -1,0 +1,25 @@
+Return-Path: <security@paypal-verify.com>
+Received: from mail.example.com (mail.example.com [192.0.2.1])
+    by yourmailserver.com with ESMTP id ABC123;
+    Thu, 11 Dec 2025 19:00:00 +0000
+Received-SPF: fail (example.com: domain of security@paypal-verify.com does not designate 192.0.2.1 as permitted sender)
+Authentication-Results: yourmailserver.com;
+    spf=fail (sender IP is 192.0.2.1) smtp.mailfrom=security@paypal-verify.com;
+    dkim=fail (signature not verified) header.d=paypal-verify.com;
+    dmarc=fail action=none header.from=paypal-verify.com
+From: PayPal Security <security@paypal-verify.com>
+To: victim@example.com
+Subject: Urgent: Verify your account
+Date: Thu, 11 Dec 2025 18:59:00 +0000
+Message-ID: <1234567890@mail.example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Valued Customer,
+
+We have detected unusual activity in your PayPal account. Click the link below to verify within 24 hours or your account will be limited:
+
+https://example-phish.com/verify-paypal
+
+Thank you,
+PayPal Security Team
